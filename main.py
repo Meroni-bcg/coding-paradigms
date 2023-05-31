@@ -15,3 +15,7 @@ print(my_podracer.condition)   # Output: perfect
 print(my_podracer.price)       # Output: 50000
 
 
+#Define a repair() method that will update the condition of the podracer to "repaired".
+
+def repair(self):
+        self.condition = "repaired"
